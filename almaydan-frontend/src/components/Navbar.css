@@ -1,0 +1,73 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  direction: rtl;
+  
+  width: 100%;            
+  position: absolute; 
+  top: 0;
+  right: 0;
+  left: 0;
+  
+  padding: 15px 50px;  
+  background-color: #0b0e14; 
+  border-bottom: 2px solid #00ff88;
+  box-sizing: border-box; 
+  z-index: 1000;         
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.nav-links li {
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+.nav-links li:hover {
+  color: #00ff88; /* يتغير للأخضر عند مرور الماوس */
+}
+
+.nav-left-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-icon{
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.live-dot{
+    color: red;
+    margin-left: 5px;
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+    0% {opacity: 1;}
+    50%{opacity: 0.3;}
+    100%{opacity: 1;}
+    
+}
+
+
+
