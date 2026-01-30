@@ -6,7 +6,7 @@ const Navbar = () =>{
         <nav className="navbar">
 
             <div className="nav-logo">
-                <span style={{color: '#00ff88', fontWeight: 'bold', fontSize: '1.5rem'}}>M</span>
+                <img src="He1s3ud/AlmaydanGP2/almaydan-frontend/src/assets/almaydanLogo.svg" alt="almaydan logo"/>
             </div> 
 
             <ul className="nav-links">
