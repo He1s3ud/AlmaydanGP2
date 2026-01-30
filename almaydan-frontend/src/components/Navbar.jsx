@@ -7,6 +7,7 @@ const Navbar = () =>{
 
             <div className="nav-logo">
               <span style={{color: '#00ff88', fontWeight: 'bold', fontSize: '1.5rem'}}>M</span>
+              <img src={almaydanLogo} alt="almaydan logo" width={14} height={18} />
             </div> 
 
             <ul className="nav-links">
