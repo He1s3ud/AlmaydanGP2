@@ -20,7 +20,7 @@ const Navbar = () =>{
             </ul>
 
             <div className="nav-left-icons">
-                <img src= {searchIcon} alt="search icon"/>
+                <span className="search-icon">🔍</span>
             
             </div>
             
