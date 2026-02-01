@@ -8,8 +8,11 @@ function App() {
 
   return (
     
-    <><Navbar />
-    
+    <>
+    <Navbar />
+    <floating />
+    <Hero />
+    <showcase  />
     </>
   
 

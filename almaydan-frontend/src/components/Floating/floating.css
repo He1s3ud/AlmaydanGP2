@@ -1,0 +1,44 @@
+.shape {
+  position: absolute;
+  filter: blur(2px);
+  opacity: .8;
+  animation: float 6s infinite ease-in-out;
+}
+
+.square {
+  width: 30px;
+  height: 36px;
+
+  background: url('/images/square.png') no-repeat center/cover;
+
+  top: 200px;
+  left: 100px;
+}
+
+.triangle {
+  width: 29px;
+  height: 35px;
+
+  background: url('/images/triangle.png') no-repeat center/cover;
+
+  top: 400px;
+  right: 200px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+
+  background: url('/images/circle.png') no-repeat center/cover;
+
+  bottom: 300px;
+  left: 300px;
+}
+
+/* Animation */
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}

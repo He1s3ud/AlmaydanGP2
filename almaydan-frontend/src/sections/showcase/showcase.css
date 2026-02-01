@@ -1,0 +1,144 @@
+.showcase {
+  width: 1280px;
+  height: 900px;
+
+  position: relative;
+  margin-top: 150px;
+}
+
+/* Lights */
+
+.pink-light {
+  position: absolute;
+
+  width: 225px;
+  height: 225px;
+
+  background: #FF27F0;
+  opacity: .19;
+
+  filter: blur(91.6px);
+
+  top: 80px;
+  left: 200px;
+}
+
+.green-light {
+  position: absolute;
+
+  width: 247px;
+  height: 247px;
+
+  background: rgba(41,255,100,.18);
+
+  filter: blur(91.6px);
+
+  bottom: 200px;
+  right: 200px;
+}
+
+.dark-light {
+  position: absolute;
+
+  width: 865px;
+  height: 231px;
+
+  background: #050E20;
+
+  filter: blur(70.75px);
+
+  bottom: 0;
+  left: 200px;
+
+  border-radius: 865px;
+}
+
+/* Border */
+
+.pink-border {
+  width: 1280px;
+  height: 457px;
+
+  border: 10px solid #FF27F0;
+  border-radius: 13px;
+
+  position: relative;
+  padding: 30px;
+}
+
+/* Image */
+
+.showcase-img {
+  width: 1190px;
+  height: 670px;
+
+  object-fit: cover;
+
+  position: absolute;
+
+  top: -120px;
+  left: 40px;
+
+  border-radius: 10px;
+}
+
+/* Text */
+
+.showcase-text {
+  position: absolute;
+
+  right: 80px;
+  bottom: 40px;
+
+  text-align: right;
+}
+
+.text-up {
+  font-size: 67px;
+  color: white;
+  line-height: 100px;
+  font-weight: 400;
+}
+
+.text-down {
+  font-size: 67px;
+  color: white;
+  line-height: 100px;
+
+  font-weight: 900;
+
+  text-shadow: 0 3px 0 #FF27F0;
+}
+
+/* Button */
+
+.showcase-btn {
+  position: absolute;
+
+  bottom: 50px;
+  left: 80px;
+
+  width: 180px;
+  padding: 8px 16px;
+
+  border-radius: 10px;
+  border: 1.4px solid #B37FEB;
+
+  background:
+    linear-gradient(
+      319deg,
+      rgba(255,255,255,.8) 11.46%,
+      rgba(255,255,255,.8) 34.44%,
+      rgba(255,255,255,0) 66.52%,
+      rgba(255,255,255,.8) 94.3%
+    ),
+    #12082A;
+
+  box-shadow:
+    0 2px 2px #000,
+    0 0 16px rgba(146,84,222,.32);
+
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
