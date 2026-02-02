@@ -1,5 +1,5 @@
 import './Hero.css';
-import almaydanLogo from 'He1s3ud/AlmaydanGP2/almaydan-frontend/src/assets/almaydanLogo.svg'
+import almaydanLogo from '../../assets/almaydanLogo.svg'
 
 export default function Hero() {
   return (
