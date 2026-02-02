@@ -1,5 +1,7 @@
 import React from "react";
 import './Navbar.css';
+import logo from '../assets/almaydanLogo.svg'
+
 
 const Navbar = () =>{
     return(

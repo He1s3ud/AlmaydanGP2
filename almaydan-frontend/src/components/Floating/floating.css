@@ -7,8 +7,9 @@
   height: 100%;
 
   pointer-events: none;
-  z-index: 2;
+  z-index: 999;
 }
+
 
 /* Base shape */
 .shape {
