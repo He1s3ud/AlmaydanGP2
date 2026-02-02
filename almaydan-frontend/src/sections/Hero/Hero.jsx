@@ -44,10 +44,10 @@ export default function Hero() {
 
       </div>
 
-      {/* Logo */}
       <div className="hero-logo">
-        <Logo />
-      </div>
+  <img src={almaydanLogo} alt="Almaydan Logo" />
+</div>
+
 
     </section>
   )
