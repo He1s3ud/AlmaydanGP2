@@ -1,14 +1,16 @@
 .hero {
-  width: 1280px;
-  height: 900px;
+  width: 100%;
+  min-height: 100vh;
+
   background: #061125;
   border-radius: 30px;
 
   position: relative;
-  overflow: hidden;
+  overflow: visible; 
 
   z-index: 1;
 }
+
 
 
 /* Content */
@@ -126,9 +128,13 @@
 .light-green-up,
 .light-green-down,
 .light-pink-up,
-.light-pink-down {
-  z-index: 1;
+.light-pink-down,
+.network,
+.hero-logo {
+  z-index: 2;
+  position: absolute;
 }
+
 
 
 /* Network */
