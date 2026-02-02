@@ -1,13 +1,12 @@
 import React from "react";
 import "./Navbar.css";
-import almaydanLogo from "../assets/almaydanLogo.svg";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
 
       <div className="nav-logo">
-        <img src={almaydanLogo} alt="almaydan logo" />
+        <img src="/assets/almaydanLogo.svg" alt="almaydan logo" />
       </div>
 
       <ul className="nav-links">
