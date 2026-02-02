@@ -1,33 +1,28 @@
 .shape {
   position: absolute;
-  filter: blur(2px);
-  opacity: 0.8;
+  opacity: 1;
   animation: float 6s infinite ease-in-out;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 
+
 .square {
-  width: 30px;
-  height: 36px;
-  top: 200px;
-  left: 100px;
+  width: 45px;
+  height: 45px;
 }
 
 .triangle {
-  width: 29px;
-  height: 35px;
-  top: 400px;
-  right: 200px;
+  width: 45px;
+  height: 45px;
 }
 
 .circle {
-  width: 20px;
-  height: 20px;
-  bottom: 300px;
-  left: 300px;
+  width: 35px;
+  height: 35px;
 }
+
 
 @keyframes float {
   0% { transform: translateY(0); }
